@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="theme-color" content="#4C9F70"/>
+    <title>Ascelpio</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="styles/plugins.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+  </head>
+  <body>
+    <div id="wrap">
+      <main>
+        <aside class="sidebar" id="sidebar">
+          <h1 class="logo"><a class="sidebar__logo" href="#"><img src="images/logo-ascelpio.png" alt="logo-ascelpio"/><span>Admin</span></a></h1>
+          <nav class="sidemenu">
+            <ul>
+              <li><a href="home.html"><span>Asclepedia</span></a></li>
+              <li><a href="asclepio-go.html"><span>Asclepio GO</span></a></li>
+              <li><a href="pemateri.html"><span>Pemateri</span></a></li>
+              <li><a href="user.html"><span>User</span></a></li>
+              <li class="current-menu-item"><a href="voucher.html"><span>Voucher</span></a></li>
+              <li><a href="#"><span>Logout</span></a></li>
+            </ul>
+          </nav>
+        </aside>
+        <div class="admin-content">
+          <section class="page-heading">
+            <div class="left">
+              <h2>Voucher</h2>
+            </div>
+            <div class="right"></div>
+          </section>
+          <section class="section">
+            <div class="section-heading">
+              <div class="left">
+                <h3>Code Voucher Open Class</h3>
+              </div>
+              <div class="right">
+                <select class="select">
+                  <option value="">Terbaru</option>
+                  <option value="">Terlama</option>
+                </select>
+                <div class="search-box">
+                  <div class="search">
+                    <input class="form-control" type="text" placeholder="Cari voucher"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="benefits-table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th><span>Code</span></th>
+                    <th><span>Jenis Kupon</span></th>
+                    <th><span>Pemakaian</span></th>
+                    <th><span>Expired Date</span></th>
+                    <th><span>Action</span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span>OPENCLASS90</span></td>
+                    <td><span>Free semua kelas Asclepedia</span></td>
+                    <td><span>1 kali</span></td>
+                    <td><span>20 Agustus 2021</span></td>
+                    <td>
+                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><span>OPENCLASS90</span></td>
+                    <td><span>Free semua kelas Asclepedia</span></td>
+                    <td><span>1 kali</span></td>
+                    <td><span>20 Agustus 2021</span></td>
+                    <td>
+                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><span>OPENCLASS90</span></td>
+                    <td><span>Free semua kelas Asclepedia</span></td>
+                    <td><span>1 kali</span></td>
+                    <td><span>20 Agustus 2021</span></td>
+                    <td>
+                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><span>OPENCLASS90</span></td>
+                    <td><span>Free semua kelas Asclepedia</span></td>
+                    <td><span>1 kali</span></td>
+                    <td><span>20 Agustus 2021</span></td>
+                    <td>
+                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="pagination-box">
+                <ul class="pagination">
+                  <li class="prev"><a href="#"><img class="svg" src="images/ic-chevron-left.svg"/></a></li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li class="next"><a href="#"><img class="svg" src="images/ic-chevron-left.svg"/></a></li>
+                </ul>
+                <select class="select">
+                  <option value="">4 items</option>
+                  <option value="">8 items</option>
+                  <option value="">12 items</option>
+                </select>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__main">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-md-3"><a class="header__logo" href="#"><img src="images/logo-ascelpio.png"/></a></div>
+              <div class="col-md-3">
+                <div class="cpyright">Copyright ©2020 Asclepio</div>
+              </div>
+              <div class="col-md-3"><span>Admin</span></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="plugins/owl.carousel/owl.carousel.min.js"></script>
+    <script src="plugins/lity/lity.min.js"></script>
+    <script src="plugins/jquery-marquee/jquery.marquee.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
