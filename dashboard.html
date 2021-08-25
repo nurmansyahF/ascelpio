@@ -24,7 +24,7 @@
               <li><a href="pemateri.html"><span>Pemateri</span></a></li>
               <li><a href="user.html"><span>User</span></a></li>
               <li><a href="voucher.html"><span>Voucher</span></a></li>
-              <li><a href="#"><span>Logout</span></a></li>
+              <li><a href="login.html"><span>Logout</span></a></li>
             </ul>
           </nav>
         </aside>
@@ -33,7 +33,7 @@
             <div class="left">
               <h2>Asclepedia</h2>
             </div>
-            <div class="right"><a class="btn btn-link" href="#">Tambah Benefit</a><a class="btn btn-primary" href="#">Buat Asclepedia</a></div>
+            <div class="right"><a class="btn btn-primary" href="#modalNotes" data-toggle="modal" data-target="#modalNotes">Buat Asclepedia</a></div>
           </section>
           <section class="section">
             <div class="section-heading">
@@ -413,6 +413,23 @@
           </div>
         </div>
       </footer>
+    </div>
+    <div class="modal" id="modalNotes" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--sm">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-title">
+              <Tulis>Catatan</Tulis>
+            </div>
+            <form>
+              <div class="form-group">
+                <input class="form-control" type="Text" value=""/>
+              </div>
+              <div class="form-action text-right"><a class="btn btn--noborder" href="#" data-dismiss="modal">Cancel</a><a class="btn btn--primary" href="#">Simpan</a></div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
     <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>

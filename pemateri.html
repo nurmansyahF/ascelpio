@@ -24,7 +24,7 @@
               <li class="current-menu-item"><a href="pemateri.html"><span>Pemateri</span></a></li>
               <li><a href="user.html"><span>User</span></a></li>
               <li><a href="voucher.html"><span>Voucher</span></a></li>
-              <li><a href="#"><span>Logout</span></a></li>
+              <li><a href="login.html"><span>Logout</span></a></li>
             </ul>
           </nav>
         </aside>
@@ -33,7 +33,7 @@
             <div class="left">
               <h2>Pemateri</h2>
             </div>
-            <div class="right"><a class="btn btn-primary" href="#">Tambah Pemateri</a></div>
+            <div class="right"><a class="btn btn-primary" href="#addPemateri" data-toggle="modal" data-target="#addPemateri">Tambah Pemateri</a></div>
           </section>
           <section class="section">
             <div class="section-heading">
@@ -253,7 +253,7 @@
                     <div class="action-sub">
                       <ul>
                         <li><a href="#">Edit</a></li>
-                        <li class="dlt"><a href="#">Remove</a><a href="#">Remove</a></li>
+                        <li class="dlt"><a href="#">Remove</a></li>
                       </ul>
                     </div>
                   </div>
@@ -276,6 +276,46 @@
           </div>
         </div>
       </footer>
+    </div>
+    <div class="modal" id="addPemateri" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--md">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-title">
+              <h3>Menambahkan Pemateri</h3>
+            </div><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <form>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="upload-pp">
+                    <div class="drop-box">
+                      <div class="image-preview"></div>
+                      <input class="inputfile" id="photo-profile" type="file" name="file"/>
+                      <div class="box-btn">
+                        <label class="btn-add-photo" for="photo">Unggah Profile</label>
+                      </div><a class="del-btn"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="form-group">
+                    <label>Nama Pemateri</label>
+                    <input class="form-control" type="text" value="" placeholder="Masukan nama pemateri"/>
+                  </div>
+                  <div class="form-group">
+                    <label>Spesialis</label>
+                    <select class="select">
+                      <option selected="selected">Dokter Spesialis Paru-Paru</option>
+                      <option>Dokter Spesialis Jantung</option>
+                    </select>
+                  </div>
+                  <div class="form-action text-right"><a class="btn btn-link" href="#" data-dismiss="modal">Batal</a><a class="btn btn-primary" data-dismiss="modal" data-toggle="modal" href="#addAsclepediaMateri">Simpan</a></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
     <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
