@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content=""/>
     <meta name="author" content=""/>
-    <meta name="theme-color" content="#4C9F70"/>
+    <meta name="theme-color" content=""/>
+    <meta name="theme-color" content="#FFEDBC"/>
     <title>Ascelpio</title>
     <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="stylesheet" href="styles/plugins.css"/>
@@ -33,7 +34,7 @@
             <div class="left">
               <h2>Asclepedia Go</h2>
             </div>
-            <div class="right"><a class="btn btn-link" href="#">Tambah Benefit</a><a class="btn btn-primary" href="#addAsclepedia" data-toggle="modal" data-target="#addAsclepedia">Buat Asclepedia</a></div>
+            <div class="right"><a class="btn btn-link" href="#addAsclepediaBenefit" data-toggle="modal" data-target="#addAsclepediaBenefit">Tambah Benefit</a><a class="btn btn-primary" href="#addAsclepedia" data-toggle="modal" data-target="#addAsclepedia">Buat Asclepedia</a></div>
           </section>
           <section class="section">
             <div class="section-heading">
@@ -191,7 +192,7 @@
                     <td><a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></td>
                     <td><a href="http://www.google.drive.com/" target="_blank">www.google.drive.com</a></td>
                     <td>
-                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
+                      <div class="action"><a href="#editBenefitLinkVideo" data-toggle="modal"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
                     </td>
                   </tr>
                   <tr>
@@ -201,7 +202,7 @@
                     <td><a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></td>
                     <td><a href="http://www.google.drive.com/" target="_blank">www.google.drive.com</a></td>
                     <td>
-                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
+                      <div class="action"><a href="#editBenefitLinkVideo" data-toggle="modal"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
                     </td>
                   </tr>
                   <tr>
@@ -211,7 +212,7 @@
                     <td><a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></td>
                     <td><a href="http://www.google.drive.com/" target="_blank">www.google.drive.com</a></td>
                     <td>
-                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
+                      <div class="action"><a href="#editBenefitLinkVideo" data-toggle="modal"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
                     </td>
                   </tr>
                   <tr>
@@ -221,7 +222,7 @@
                     <td><a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></td>
                     <td><a href="http://www.google.drive.com/" target="_blank">www.google.drive.com</a></td>
                     <td>
-                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
+                      <div class="action"><a href="#editBenefitLinkVideo" data-toggle="modal"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
                     </td>
                   </tr>
                 </tbody>
@@ -657,12 +658,243 @@
         </div>
       </div>
     </div>
+    <div class="modal" id="addAsclepediaBenefit" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--lg">
+        <div class="modal-content">
+          <div class="modal-body"><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <div class="modal-title">
+              <h3>Pilih Kelas</h3>
+              <p>Pilih kelas untuk tambah benefit ke kelas yang sudah selesai</p>
+            </div>
+            <div class="modal-searchfilter">
+              <div class="search-box">
+                <div class="search">
+                  <input class="form-control" type="text" placeholder="Search"/>
+                </div>
+              </div>
+              <div class="select-box">
+                <select class="select">
+                  <option value="">Terbaru</option>
+                  <option value="">Terlama</option>
+                </select>
+              </div>
+            </div>
+            <div class="wrap-box-card listview">
+              <div class="box-card"><a class="box-card__link" href="#addBenefitLinkVideo" data-toggle="modal" data-dismiss="modal">
+                  <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                  <div class="box-card__content">
+                    <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                      <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                      <ul class="schedule">
+                        <ul>
+                          <li>
+                            <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                          </li>
+                          <li>
+                            <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+                    <div class="box-card__footer">
+                      <div class="author">
+                        <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                      </div>
+                      <div class="price">Rp. 150,000</div>
+                    </div>
+                  </div></a></div>
+              <div class="box-card"><a class="box-card__link" href="#addBenefitLinkVideo" data-toggle="modal" data-dismiss="modal">
+                  <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                  <div class="box-card__content">
+                    <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                      <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                      <ul class="schedule">
+                        <ul>
+                          <li>
+                            <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                          </li>
+                          <li>
+                            <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+                    <div class="box-card__footer">
+                      <div class="author">
+                        <div class="pp"><img src="images/pp-author.png"/></div>
+                        <div class="pp"><img src="images/pp-author.png"/></div>
+                      </div>
+                      <div class="price">Rp. 150,000</div>
+                    </div>
+                  </div></a></div>
+              <div class="box-card"><a class="box-card__link" href="#addBenefitLinkVideo" data-toggle="modal" data-dismiss="modal">
+                  <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                  <div class="box-card__content">
+                    <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                      <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                      <ul class="schedule">
+                        <ul>
+                          <li>
+                            <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                          </li>
+                          <li>
+                            <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+                    <div class="box-card__footer">
+                      <div class="author">
+                        <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                      </div>
+                      <div class="price">Rp. 150,000</div>
+                    </div>
+                  </div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="addBenefitLinkVideo" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--lg">
+        <div class="modal-content">
+          <div class="modal-body"><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <div class="modal-title w-back"><a class="ic-back" href="#addAsclepediaBenefit" data-toggle="modal" data-dismiss="modal"><img src="images/ic-arrow-left.svg"/></a>
+              <h3>Tambah Benefit</h3>
+              <p>Tambah benefit ke kelas yang sudah selesai</p>
+            </div>
+            <div class="modal-searchfilter">
+              <div class="search-box">
+                <div class="search">
+                  <input class="form-control" type="text" placeholder="Search"/>
+                </div>
+              </div>
+              <div class="select-box">
+                <select class="select">
+                  <option value="">Terbaru</option>
+                  <option value="">Terlama</option>
+                </select>
+              </div>
+            </div>
+            <div class="wrap-box-card listview">
+              <h4>Kelas yang dipilih</h4>
+              <div class="box-card">
+                <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                <div class="box-card__content">
+                  <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                    <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                    <ul class="schedule">
+                      <ul>
+                        <li>
+                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                        </li>
+                        <li>
+                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                        </li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div class="box-card__footer">
+                    <div class="author">
+                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                    </div>
+                    <div class="price">Rp. 150,000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrap-addlink">
+              <h4>Tambahkan Link</h4>
+              <form action="#">
+                <div class="form-group">
+                  <label>Link Video Rekaman</label>
+                  <input class="form-control" type="text" placeholder="Masukan link video"/>
+                </div>
+                <div class="form-group">
+                  <label>Link materi</label>
+                  <input class="form-control" type="text" placeholder="Masukan link materi"/>
+                </div>
+                <div class="form-action text-right"><a class="btn btn-link" href="#" data-dismiss="modal">Batal</a>
+                  <button class="btn btn-primary" type="submit" data-dismiss="modal">Publish</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="editBenefitLinkVideo" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--lg">
+        <div class="modal-content">
+          <div class="modal-body"><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <div class="modal-title">
+              <h3>Edit Benefit</h3>
+              <p>Tambah benefit ke kelas yang sudah selesai</p>
+            </div>
+            <div class="modal-searchfilter">
+              <div class="search-box">
+                <div class="search">
+                  <input class="form-control" type="text" placeholder="Search"/>
+                </div>
+              </div>
+              <div class="select-box">
+                <select class="select">
+                  <option value="">Terbaru</option>
+                  <option value="">Terlama</option>
+                </select>
+              </div>
+            </div>
+            <div class="wrap-box-card listview">
+              <h4>Kelas yang dipilih</h4>
+              <div class="box-card">
+                <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                <div class="box-card__content">
+                  <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                    <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                    <ul class="schedule">
+                      <ul>
+                        <li>
+                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                        </li>
+                        <li>
+                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                        </li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div class="box-card__footer">
+                    <div class="author">
+                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                    </div>
+                    <div class="price">Rp. 150,000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrap-addlink">
+              <h4>Tambahkan Link</h4>
+              <form action="#">
+                <div class="form-group">
+                  <label>Link Video Rekaman</label>
+                  <input class="form-control" type="text" placeholder="Masukan link video"/>
+                </div>
+                <div class="form-group">
+                  <label>Link materi</label>
+                  <input class="form-control" type="text" placeholder="Masukan link materi"/>
+                </div>
+                <div class="form-action text-right"><a class="btn btn-link" href="#" data-dismiss="modal">Batal</a>
+                  <button class="btn btn-primary" type="submit" data-dismiss="modal">Save</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
     <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
     <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="plugins/owl.carousel/owl.carousel.min.js"></script>
-    <script src="plugins/lity/lity.min.js"></script>
-    <script src="plugins/jquery-marquee/jquery.marquee.min.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>

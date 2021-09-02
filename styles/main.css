@@ -1,13 +1,14 @@
 /* ------------------------------------------------------------------------------------------------ */
 /* Core style */
 /* ------------------------------------------------------------------------------------------------ */
-@font-face { font-family: "Monsterrat"; font-display: swap; src: local("Monsterrat"); src: url("../fonts/monsterrat-regular.eot"); src: url("../fonts/monsterrat-regular.eot#iefix") format("embedded-opentype"), url("../fonts/monsterrat-regular.woff2") format("woff2"), url("../fonts/monsterrat-regular.woff") format("woff"), url("../fonts/monsterrat-regular.ttf") format("truetype"), url("../fonts/monsterrat-regular.svg") format("svg"); font-style: normal; font-weight: 400; }
+/* Fonts */
+@font-face { font-family: "Montserrat"; font-display: swap; src: local("Montserrat"); src: url("../fonts/montserrat-regular.eot"); src: url("../fonts/montserrat-regular.eot#iefix") format("embedded-opentype"), url("../fonts/montserrat-regular.woff2") format("woff2"), url("../fonts/montserrat-regular.woff") format("woff"), url("../fonts/montserrat-regular.ttf") format("truetype"), url("../fonts/montserrat-regular.svg") format("svg"); font-style: normal; font-weight: 400; }
 
-@font-face { font-family: "Monsterrat"; font-display: swap; src: local("Monsterrat"); src: url("../fonts/monsterrat-medium.eot"); src: url("../fonts/monsterrat-medium.eot#iefix") format("embedded-opentype"), url("../fonts/monsterrat-medium.woff2") format("woff2"), url("../fonts/monsterrat-medium.woff") format("woff"), url("../fonts/monsterrat-medium.ttf") format("truetype"), url("../fonts/monsterrat-medium.svg") format("svg"); font-style: normal; font-weight: 500; }
+@font-face { font-family: "Montserrat"; font-display: swap; src: local("Montserrat"); src: url("../fonts/montserrat-medium.eot"); src: url("../fonts/montserrat-medium.eot#iefix") format("embedded-opentype"), url("../fonts/montserrat-medium.woff2") format("woff2"), url("../fonts/montserrat-medium.woff") format("woff"), url("../fonts/montserrat-medium.ttf") format("truetype"), url("../fonts/montserrat-medium.svg") format("svg"); font-style: normal; font-weight: 500; }
 
-@font-face { font-family: "Monsterrat"; font-display: swap; src: local("Monsterrat"); src: url("../fonts/monsterrat-semibold.eot"); src: url("../fonts/monsterrat-semibold.eot#iefix") format("embedded-opentype"), url("../fonts/monsterrat-semibold.woff2") format("woff2"), url("../fonts/monsterrat-semibold.woff") format("woff"), url("../fonts/monsterrat-semibold.ttf") format("truetype"), url("../fonts/monsterrat-semibold.svg") format("svg"); font-style: normal; font-weight: 600; }
+@font-face { font-family: "Montserrat"; font-display: swap; src: local("Montserrat"); src: url("../fonts/montserrat-semibold.eot"); src: url("../fonts/montserrat-semibold.eot#iefix") format("embedded-opentype"), url("../fonts/montserrat-semibold.woff2") format("woff2"), url("../fonts/montserrat-semibold.woff") format("woff"), url("../fonts/montserrat-semibold.ttf") format("truetype"), url("../fonts/montserrat-semibold.svg") format("svg"); font-style: normal; font-weight: 600; }
 
-@font-face { font-family: "Monsterrat"; font-display: swap; src: local("Monsterrat"); src: url("../fonts/monsterrat-bold.eot"); src: url("../fonts/monsterrat-bold.eot#iefix") format("embedded-opentype"), url("../fonts/monsterrat-bold.woff2") format("woff2"), url("../fonts/monsterrat-bold.woff") format("woff"), url("../fonts/monsterrat-bold.ttf") format("truetype"), url("../fonts/monsterrat-bold.svg") format("svg"); font-style: normal; font-weight: 700; }
+@font-face { font-family: "Montserrat"; font-display: swap; src: local("Montserrat"); src: url("../fonts/montserrat-bold.eot"); src: url("../fonts/montserrat-bold.eot#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold.woff2") format("woff2"), url("../fonts/montserrat-bold.woff") format("woff"), url("../fonts/montserrat-bold.ttf") format("truetype"), url("../fonts/montserrat-bold.svg") format("svg"); font-style: normal; font-weight: 700; }
 
 /* ------------------------------------------------------------------------------------------------ */
 /* Typography */
@@ -26,15 +27,15 @@ p a:hover { text-decoration: underline; }
 
 p:last-child { margin-bottom: 0; }
 
-h1, h2, h3, h3, h4, h5 { margin-bottom: 1.875rem; font-weight: 400; color: #202320; }
+h1, h2, h3, h4 { font-weight: 700; }
 
-h1 { font-size: 42px; line-height: 1.333em; font-weight: 700; }
+h1 { font-size: 50px; line-height: 1.5em; }
 
-h2 { font-size: 34px; line-height: 1.5em; font-weight: 700; }
+h2 { font-size: 34px; line-height: 1.5em; }
 
-h3 { font-size: 20px; line-height: 1.4em; font-weight: 700; }
+h3 { font-size: 18px; line-height: 1.5em; }
 
-h4 { font-size: 1.5rem; line-height: 1.45em; margin-bottom: 0.625rem; }
+h4 { font-size: 16px; line-height: 1.5em; }
 
 h5 { font-size: 1.3rem; line-height: 1.4em; margin-bottom: 0.625rem; }
 
@@ -42,17 +43,17 @@ h6 { font-size: 0.9rem; margin-bottom: 0.625rem; text-transform: uppercase; font
 
 ul { padding: 0; margin: 0; list-style: none; }
 
-article p { word-break: keep-all; /* Non standard for webkit */ -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; margin: 0 0 30px; line-height: 1.5em; }
+article p { word-break: keep-all; /* Non standard for webkit */ -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; margin: 0 0 1.25rem; }
 
-article p:last-child { margin-bottom: 0; }
+article p:last-child { margin: 0; }
 
 article a:hover { text-decoration: underline; }
 
 article blockquote { font-style: italic; }
 
-article li ul, article li ol { margin: 0 30px; padding-top: 0.625rem; }
+article li ul, article li ol { margin: 0 1.25rem; padding-top: 0.625rem; }
 
-article ul, article ol { margin: 0 0 30px; padding-left: 1.5625rem; }
+article ul, article ol { margin: 0 0 1.875rem; padding-left: 1.5625rem; }
 
 article ul:last-child, article ol:last-child { margin: 0; }
 
@@ -86,11 +87,6 @@ article ol ol ol ol { list-style: lower-alpha; }
 
 .text-capital { text-transform: uppercase; }
 
-@media (min-width: 1200px) { * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-decoration: none; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; -webkit-font-kerning: normal; font-kerning: normal; }
-  *::-webkit-scrollbar { width: 10px; background-color: #F9F9F9; }
-  *::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2); background-color: #F5F5F5; }
-  *::-webkit-scrollbar-thumb { background-color: #DC7702; border: 1px solid #F9F9F9; } }
-
 /* ------------------------------------------------------------------------------------------------ */
 /* BASE */
 /* ------------------------------------------------------------------------------------------------ */
@@ -98,15 +94,11 @@ article ol ol ol ol { list-style: lower-alpha; }
 
 img { display: block; max-width: 100%; }
 
-hr { border-top: 1px solid #E7E9F0; }
+hr { border-top: 1px solid #30793133; }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; }
 
-button.btn:hover { box-shadow: none; }
-
-button.btn:focus { box-shadow: none; border: none; }
-
-html, body { font-size: 16px; line-height: 1.5em; font-family: "Monsterrat", Helvetica Neue, Arial, sans-serif; font-weight: normal; padding: 0; margin: 0; background-color: #FFFFFF; color: #202320; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+html, body { font-size: 16px; line-height: 1.5em; font-family: 'Montserrat', 'Roboto', arial, sans-serif; font-weight: normal; padding: 0; margin: 0; background-color: #FFFFFF; color: #202320; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
 
 /* ------------------------------------------------------------------------------------------------ */
 /* Component style */
@@ -189,7 +181,7 @@ html, body { font-size: 16px; line-height: 1.5em; font-family: "Monsterrat", Hel
 
 .modal-header { display: -ms-flexbox; display: -webkit-flex; display: flex; -ms-flex-align: start; -webkit-align-items: flex-start; align-items: flex-start; -ms-flex-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; padding: 1rem 1rem; border-bottom: 1px solid #dee2e6; border-top-left-radius: calc(0.5rem - 1px); border-top-right-radius: calc(0.5rem - 1px); }
 
-.close { width: 24px; height: 24px; display: inline-block; position: absolute; top: 32px; right: 32px; }
+.close { width: 24px; height: 24px; display: inline-block; position: absolute; top: 32px; right: 32px; z-index: 10; }
 
 .modal-title { margin-bottom: 0; margin-bottom: .5rem; border-radius: 24px 24px 0 0; }
 
@@ -201,11 +193,13 @@ html, body { font-size: 16px; line-height: 1.5em; font-family: "Monsterrat", Hel
 
 .modal-body p + .form-action { margin-top: 1.5rem; }
 
-.modal-footer { display: -ms-flexbox; display: -webkit-flex; display: flex; -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-flex-pack: end; -webkit-justify-content: flex-end; justify-content: flex-end; padding: 0.75rem; border-top: 1px solid #E7E9F0; border-bottom-right-radius: calc(0.5rem - 1px); border-bottom-left-radius: calc(0.5rem - 1px); }
+.modal-footer { display: -ms-flexbox; display: -webkit-flex; display: flex; -ms-flex-wrap: wrap; -webkit-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-flex-pack: end; -webkit-justify-content: flex-end; justify-content: flex-end; padding: 0.75rem; border-top: 1px solid #30793133; border-bottom-right-radius: calc(0.5rem - 1px); border-bottom-left-radius: calc(0.5rem - 1px); }
 
 .modal-footer > * { margin: 0.25rem; }
 
 .modal-scrollbar-measure { position: absolute; top: -9999px; width: 50px; height: 50px; overflow: scroll; }
+
+.dropdown.bootstrap-select.select .btn.dropdown-toggle:focus { outline: none !important; }
 
 @media (min-width: 576px) { .modal-dialog { max-width: 580px; margin: 1.75rem auto; }
   .modal-dialog--scrollable { max-height: calc(100% - 3.5rem); }
@@ -230,7 +224,7 @@ html, body { font-size: 16px; line-height: 1.5em; font-family: "Monsterrat", Hel
 
 .btn:hover { text-decoration: none; }
 
-.btn:focus, .btn.focus { outline: 0; box-shadow: none; }
+.btn:focus, .btn.focus { outline: none !important; box-shadow: none; }
 
 .btn.disabled, .btn:disabled { opacity: 0.5; }
 
@@ -276,11 +270,11 @@ html, body { font-size: 16px; line-height: 1.5em; font-family: "Monsterrat", Hel
 
 .section-heading .select { margin-right: 20px; }
 
-.section-heading .search-box { position: relative; width: 216px; }
+.search-box { position: relative; width: 216px; }
 
-.section-heading .search-box:before { content: ""; width: 20px; height: 20px; position: absolute; top: 9px; left: 12px; background-image: url(../images/ic-search.svg); background-size: contain; background-repeat: no-repeat; background-position: center; }
+.search-box:before { content: ""; width: 20px; height: 20px; position: absolute; top: 9px; left: 12px; background-image: url(../images/ic-search.svg); background-size: contain; background-repeat: no-repeat; background-position: center; }
 
-.section-heading .search-box .form-control { background-color: #FFF; padding-left: 46px; }
+.search-box .form-control { background-color: #FFF; padding-left: 46px; }
 
 .box-card { width: 100%; background: #FFF; border-radius: 20px; border: 1px solid rgba(48, 121, 49, 0.2); }
 
@@ -289,10 +283,6 @@ html, body { font-size: 16px; line-height: 1.5em; font-family: "Monsterrat", Hel
 .box-card__img img { width: 100%; height: 100%; object-fit: cover; }
 
 .box-card__text { padding: 20px 16px; }
-
-.box-card__text span.tag { font-size: 12px; line-height: 14px; padding: 5px 6px; background: #E4FED1; color: #6C841D; border-radius: 8px; margin-bottom: 16px; display: inline-block; vertical-align: middle; }
-
-.box-card__text span.tag-scndry { color: #278D68; background: #278D6824; }
 
 .box-card__text h4 { font-size: 16px; line-height: 24px; margin-bottom: 14px; font-weight: 600; }
 
@@ -310,13 +300,13 @@ html, body { font-size: 16px; line-height: 1.5em; font-family: "Monsterrat", Hel
 
 .box-card__text .schedule span { display: inline-block; vertical-align: middle; font-size: 13px; line-height: 20px; }
 
-.box-card__text .author .pp { display: inline-block; vertical-align: middle; width: 30px; height: 30px; border-radius: 50%; margin-right: 15px; }
-
-.box-card__text .author span { font-size: 13px; line-height: 20px; }
-
 .box-card__footer { padding: 20px 16px; padding-top: 0; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
 
 .box-card__footer .price { font-weight: 600; color: #75B248; }
+
+.box-card .author .pp { display: inline-block; vertical-align: middle; width: 30px; height: 30px; border-radius: 50%; margin-right: 15px; }
+
+.box-card .author span { font-size: 13px; line-height: 20px; }
 
 .box-card .action { position: relative; }
 
@@ -335,6 +325,40 @@ html, body { font-size: 16px; line-height: 1.5em; font-family: "Monsterrat", Hel
 .box-card .action:hover .action-sub { bottom: 100%; opacity: 1; visibility: visible; }
 
 .wrap-box-card [class^='col-md']:last-child .box-card .action .action-sub { left: auto; right: 50%; }
+
+.wrap-box-card.listview:not(:last-child) { margin-bottom: 32px; }
+
+.wrap-box-card.listview .box-card { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; border-radius: 20px; padding: 10px; }
+
+.wrap-box-card.listview .box-card:not(:last-child) { margin-bottom: 20px; }
+
+.wrap-box-card.listview .box-card__link { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; border-radius: 20px; color: #202320; text-decoration: none; }
+
+.wrap-box-card.listview .box-card__img { width: 140px; height: 160px; border-radius: 14px; overflow: hidden; }
+
+.wrap-box-card.listview .box-card__img img { width: 100%; height: 100%; object-fit: cover; }
+
+.wrap-box-card.listview .box-card__content { -webkit-flex: 0 0 calc(100% - 140px); -ms-flex: 0 0 calc(100% - 140px); flex: 0 0 calc(100% - 140px); max-width: calc(100% - 140px); padding-left: 24px; }
+
+.wrap-box-card.listview .box-card__text { padding: 0; }
+
+.wrap-box-card.listview .box-card__text .schedule li { display: inline-block; -webkit-margin-after: 0; margin-block-end: 0; }
+
+.wrap-box-card.listview .box-card__text .schedule li + li { margin-left: 20px; }
+
+.wrap-box-card.listview .box-card__footer { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; padding: 0; }
+
+.wrap-box-card.listview .box-card__footer .price { font-size: 14px; line-height: 20px; }
+
+span.tag { font-size: 12px; line-height: 14px; padding: 5px 6px; background: #E4FED1; color: #6C841D; border-radius: 8px; margin-bottom: 16px; display: inline-block; vertical-align: middle; }
+
+span.tag-scndry { color: #278D68; background: #278D6824; }
+
+span.tag-open { color: #DC7702; background: rgba(220, 119, 2, 0.1); }
+
+span.tag-expert { color: #CDA71F; background: rgba(205, 167, 31, 0.1); }
+
+span.tag-private { color: #47B4F1; background: rgba(71, 180, 241, 0.1); }
 
 .card-pemateri { position: relative; padding: 20px; margin-bottom: 24px; }
 
@@ -552,9 +576,25 @@ label { font-size: 13px; line-height: 1.5em; color: #202320; margin-bottom: 4px;
 
 .drop-box .box-btn span { font-size: 12px; line-height: 14px; color: #ACB3C0; }
 
+.modal-dialog--lg { max-width: 804px; }
+
+.modal-dialog .modal-title { position: relative; }
+
 .modal-dialog .modal-title h3 { font-size: 16px; line-height: 24px; }
 
+.modal-dialog .modal-title.w-back { padding-left: 52px; }
+
+.modal-dialog .modal-title.w-back .ic-back { position: absolute; top: 0; left: 0; width: 32px; height: 32px; }
+
 .modal-dialog h4 { font-size: 16px; line-height: 24px; font-weight: 600; }
+
+.modal-dialog .modal-searchfilter { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; padding: 24px 0; }
+
+.modal-dialog .modal-searchfilter .search-box, .modal-dialog .modal-searchfilter .select-box { width: 190px; max-width: 100%; }
+
+.modal-dialog .modal-searchfilter .search-box + .select-box { margin-left: 20px; }
+
+.modal-dialog .modal-searchfilter .select-box { max-width: 100%; width: 160px; }
 
 .modal-dialog .form-group { margin-bottom: 20px; }
 
@@ -584,7 +624,7 @@ label { font-size: 13px; line-height: 1.5em; color: #202320; margin-bottom: 4px;
 
 .modal-dialog .form-action .btn-link { color: #838683; }
 
-.modal-dialog .box-form-materi { padding: 20px 16px; border: 1px solid #E7E9F0; border-radius: 20px; }
+.modal-dialog .box-form-materi { padding: 20px 16px; border: 1px solid #30793133; border-radius: 20px; }
 
 .modal-dialog .box-form-materi:not(:last-child) { margin-bottom: 20px; }
 
