@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="theme-color" content=""/>
+    <meta name="theme-color" content="#FFEDBC"/>
+    <title>Ascelpio</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="styles/plugins.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+  </head>
+  <body>
+    <div id="wrap">
+      <main>
+        <aside class="sidebar" id="sidebar">
+          <h1 class="logo"><a class="sidebar__logo" href="#"><img src="images/logo-ascelpio.png" alt="logo-ascelpio"/><span>Admin</span></a></h1>
+          <nav class="sidemenu">
+            <ul>
+              <li><a href="dashboard.html"><span>Dashboard</span></a></li>
+              <li><a href="asclepedia.html"><span>Asclepedia</span></a></li>
+              <li><a href="asclepio-go.html"><span>Asclepio GO</span></a></li>
+              <li><a href="pemateri.html"><span>Pemateri</span></a></li>
+              <li><a href="user.html"><span>Member</span></a></li>
+              <li class="current-menu-item"><a href="master-topik.html"><span>Master Topik</span></a></li>
+              <li><a href="voucher.html"><span>Voucher</span></a></li>
+              <li><a href="voucher.html"><span>Transaksi</span></a></li>
+              <li><a href="voucher.html"><span>Laporan Keuangan</span></a></li>
+              <li><a href="voucher.html"><span>Settings</span></a></li>
+              <li><a href="login.html"><span>Logout</span></a></li>
+            </ul>
+          </nav>
+        </aside>
+        <div class="admin-content">
+          <section class="page-heading">
+            <div class="left">
+              <h2>Master Topik</h2>
+            </div>
+            <div class="right"><a class="btn btn-transparent" href="#editTopik" data-toggle="modal" data-target="#editTopik">Edit Topik</a><a class="btn btn-primary" href="#addTopik" data-toggle="modal" data-target="#addTopik">Tambah Topik</a></div>
+          </section>
+          <section class="section">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="section-heading">
+                  <div class="left">
+                    <h3>List Topik</h3>
+                  </div>
+                </div>
+                <div class="menu-list-topik">
+                  <ul>
+                    <li><a href="#">Penyait dalam</a></li>
+                    <li><a href="#">Pediatri</a></li>
+                    <li class="active"><a href="#">Obstetri Ginekologi</a></li>
+                    <li><a href="#">Bedah</a></li>
+                    <li><a href="#">Neurologi</a></li>
+                    <li><a href="#">Forensik</a></li>
+                    <li><a href="#">Public Health</a></li>
+                    <li><a href="#">Anestesi</a></li>
+                    <li><a href="#">Oftalomologi</a></li>
+                    <li><a href="#">Psikiatri</a></li>
+                    <li><a href="#">THT</a></li>
+                    <li><a href="#">Kardiologi</a></li>
+                    <li><a href="#">Respirasi</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Kulit Kelamin</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="wrap-box-card listview">
+                  <div class="section-heading">
+                    <div class="left">
+                      <h3>Kelas</h3>
+                    </div>
+                    <div class="right"><small>10 kelas ditemukan</small></div>
+                  </div>
+                  <div class="box-card">
+                    <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                    <div class="box-card__content">
+                      <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                        <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                        <ul class="schedule">
+                          <ul>
+                            <li>
+                              <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                            </li>
+                            <li>
+                              <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                            </li>
+                          </ul>
+                        </ul>
+                      </div>
+                      <div class="box-card__footer">
+                        <div class="author">
+                          <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                        </div>
+                        <div class="price">Rp. 150,000</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box-card">
+                    <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                    <div class="box-card__content">
+                      <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                        <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                        <ul class="schedule">
+                          <ul>
+                            <li>
+                              <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                            </li>
+                            <li>
+                              <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                            </li>
+                          </ul>
+                        </ul>
+                      </div>
+                      <div class="box-card__footer">
+                        <div class="author">
+                          <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                        </div>
+                        <div class="price">Rp. 150,000</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box-card">
+                    <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                    <div class="box-card__content">
+                      <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                        <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                        <ul class="schedule">
+                          <ul>
+                            <li>
+                              <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                            </li>
+                            <li>
+                              <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                            </li>
+                          </ul>
+                        </ul>
+                      </div>
+                      <div class="box-card__footer">
+                        <div class="author">
+                          <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                        </div>
+                        <div class="price">Rp. 150,000</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box-card">
+                    <div class="box-card__img"><img src="images/img-thumbnail-semisquare-01.png"/></div>
+                    <div class="box-card__content">
+                      <div class="box-card__text"><span class="tag tag-open">Open Class</span>
+                        <h4>Siap Tanggapi Trauma Urogenital serta aplikasi desain website.</h4>
+                        <ul class="schedule">
+                          <ul>
+                            <li>
+                              <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
+                            </li>
+                            <li>
+                              <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
+                            </li>
+                          </ul>
+                        </ul>
+                      </div>
+                      <div class="box-card__footer">
+                        <div class="author">
+                          <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                        </div>
+                        <div class="price">Rp. 150,000</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__main">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-md-3"><a class="header__logo" href="#"><img src="images/logo-ascelpio.png"/></a></div>
+              <div class="col-md-3">
+                <div class="cpyright">Copyright ©2020 Asclepio</div>
+              </div>
+              <div class="col-md-3"><span>Admin</span></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="modal" id="addTopik" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--md">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-title">
+              <h3>Menambahkan Topik</h3>
+            </div><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <form>
+              <div class="form-group">
+                <label>Nama Topik</label>
+                <input class="form-control" type="text" placeholder="Masukan nama topik baru"/>
+              </div>
+              <div class="form-action text-right"><a class="btn btn-link" href="#" data-dismiss="modal">Cancel</a><a class="btn btn-primary" href="#" data-dismiss="modal">Simpan</a></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal edit-topik" id="editTopik" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--md">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-title">
+              <h3>Edit Topik</h3>
+            </div><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_1" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_1">Penyait dalam</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_2" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_2">Anestesi</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_3" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_3">Obstetri Ginekologi</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_4" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_4">Psikiatri</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_5" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_1">Bedah</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_6" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_6">THT</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_7" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_7">Neurologi</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_8" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_8">Kardiologi</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_9" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_9">Forensik</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_10" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_10">Respirasi</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_11" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_11">Public Health</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_12" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_12">Research</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="choice_13" type="checkbox" name="topik"/>
+                    <label class="custom-control-label" for="choice_13">Kulit Kelamin</label>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <hr/>
+            <div class="btn-wrap text-right"><span>2 topik terpilih</span><a class="btn-delete" href="#modalDelete" data-dismiss="modal" data-toggle="modal" data-target="#modalDelete">
+                <div class="ic"><img src="images/ic-action-delete.svg" alt="ic-delete"/></div><span>Hapus Topik</span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal delete-topik" id="modalDelete" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--sm">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="icon"><img src="images/logo-delete.svg" alt="icon-delete"/></div>
+            <div class="text">
+              <h3>Hapus Topik?</h3>
+              <p>Anda akan menghapus 4 topik. Apakah anda yakin?</p>
+            </div>
+            <div class="btn-wrap"><a class="btn btn-link" href="#">Batal</a><a class="btn btn-primary" href="#" data-dismiss="modal">Hapus</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

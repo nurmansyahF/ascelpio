@@ -20,11 +20,16 @@
           <h1 class="logo"><a class="sidebar__logo" href="#"><img src="images/logo-ascelpio.png" alt="logo-ascelpio"/><span>Admin</span></a></h1>
           <nav class="sidemenu">
             <ul>
-              <li class="current-menu-item"><a href="home.html"><span>Asclepedia</span></a></li>
+              <li class="current-menu-item"><a href="dashboard.html"><span>Dashboard</span></a></li>
+              <li><a href="asclepedia.html"><span>Asclepedia</span></a></li>
               <li><a href="asclepio-go.html"><span>Asclepio GO</span></a></li>
               <li><a href="pemateri.html"><span>Pemateri</span></a></li>
-              <li><a href="user.html"><span>User</span></a></li>
+              <li><a href="user.html"><span>Member</span></a></li>
+              <li><a href="master-topik.html"><span>Master Topik</span></a></li>
               <li><a href="voucher.html"><span>Voucher</span></a></li>
+              <li><a href="voucher.html"><span>Transaksi</span></a></li>
+              <li><a href="voucher.html"><span>Laporan Keuangan</span></a></li>
+              <li><a href="voucher.html"><span>Settings</span></a></li>
               <li><a href="login.html"><span>Logout</span></a></li>
             </ul>
           </nav>
@@ -32,372 +37,113 @@
         <div class="admin-content">
           <section class="page-heading">
             <div class="left">
-              <h2>Asclepedia</h2>
-            </div>
-            <div class="right"><a class="btn btn-primary" href="#modalNotes" data-toggle="modal" data-target="#modalNotes">Buat Asclepedia</a></div>
-          </section>
-          <section class="section">
-            <div class="section-heading">
-              <div class="left">
-                <h3>Upcoming Class</h3>
-              </div>
-              <div class="right">
-                <select class="select">
-                  <option value="">Kategori 1</option>
-                  <option value="">Kategori 2</option>
-                  <option value="">Kategori 3</option>
-                  <option value="">Kategori 4</option>
-                </select>
-                <div class="search-box">
-                  <div class="search">
-                    <input class="form-control" type="text" placeholder="Cari kelas"/>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row wrap-box-card">
-              <div class="col-md-3">
-                <div class="box-card">
-                  <div class="box-card__img"><img src="images/img-card-01.png"/></div>
-                  <div class="box-card__text"><span class="tag">Good morning knowledge</span>
-                    <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
-                    <ul class="schedule">
-                      <ul>
-                        <li>
-                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
-                        </li>
-                        <li>
-                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
-                        </li>
-                      </ul>
-                    </ul>
-                    <div class="author">
-                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
-                    </div>
-                  </div>
-                  <div class="box-card__footer">
-                    <div class="price">Free</div>
-                    <div class="action">
-                      <div class="dot"><img src="images/ic-three-dots.svg"/></div>
-                      <div class="action-sub">
-                        <ul>
-                          <li><a href="#">Edit Kelas</a></li>
-                          <li class="dlt"><a href="#">Delete Kelas</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="box-card">
-                  <div class="box-card__img"><img src="images/img-card-02.png"/></div>
-                  <div class="box-card__text"><span class="tag">Siap Tanggapi Trauma Urogenital</span>
-                    <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
-                    <ul class="schedule">
-                      <ul>
-                        <li>
-                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
-                        </li>
-                        <li>
-                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
-                        </li>
-                      </ul>
-                    </ul>
-                    <div class="author">
-                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
-                    </div>
-                  </div>
-                  <div class="box-card__footer">
-                    <div class="price">Rp. 250,000,-</div>
-                    <div class="action">
-                      <div class="dot"><img src="images/ic-three-dots.svg"/></div>
-                      <div class="action-sub">
-                        <ul>
-                          <li><a href="#">Edit Kelas</a></li>
-                          <li class="dlt"><a href="#">Delete Kelas</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="box-card">
-                  <div class="box-card__img"><img src="images/img-card-03.png"/></div>
-                  <div class="box-card__text"><span class="tag tag-scndry">Skill Lab</span>
-                    <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
-                    <ul class="schedule">
-                      <ul>
-                        <li>
-                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
-                        </li>
-                        <li>
-                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
-                        </li>
-                      </ul>
-                    </ul>
-                    <div class="author">
-                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
-                    </div>
-                  </div>
-                  <div class="box-card__footer">
-                    <div class="price">Free</div>
-                    <div class="action">
-                      <div class="dot"><img src="images/ic-three-dots.svg"/></div>
-                      <div class="action-sub">
-                        <ul>
-                          <li><a href="#">Edit Kelas</a></li>
-                          <li class="dlt"><a href="#">Delete Kelas</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h2>Dashboard Summary</h2>
             </div>
           </section>
           <section class="section">
             <div class="section-heading">
               <div class="left">
-                <h3>Benefits Class</h3>
-              </div>
-              <div class="right">
-                <select class="select">
-                  <option value="">Terbaru</option>
-                  <option value="">Terlama</option>
-                </select>
-                <div class="search-box">
-                  <div class="search">
-                    <input class="form-control" type="text" placeholder="Cari kelas"/>
-                  </div>
-                </div>
+                <h3>Stat</h3>
               </div>
             </div>
-            <div class="benefits-table">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th><span>Benefit untuk kelas</span></th>
-                    <th><span>Link Video</span></th>
-                    <th><span>Link Materi</span></th>
-                    <th><span>Action</span></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
-                    </td>
-                    <td><a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></td>
-                    <td><a href="http://www.google.drive.com/" target="_blank">www.google.drive.com</a></td>
-                    <td>
-                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
-                    </td>
-                    <td><a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></td>
-                    <td><a href="http://www.google.drive.com/" target="_blank">www.google.drive.com</a></td>
-                    <td>
-                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
-                    </td>
-                    <td><a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></td>
-                    <td><a href="http://www.google.drive.com/" target="_blank">www.google.drive.com</a></td>
-                    <td>
-                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
-                    </td>
-                    <td><a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></td>
-                    <td><a href="http://www.google.drive.com/" target="_blank">www.google.drive.com</a></td>
-                    <td>
-                      <div class="action"><a href="#"><img src="images/ic-action-edit.svg"/></a><a href="#"><img src="images/ic-action-delete.svg"/></a></div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="pagination-box">
-                <ul class="pagination">
-                  <li class="prev"><a href="#"><img class="svg" src="images/ic-chevron-left.svg"/></a></li>
-                  <li class="active"><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li class="next"><a href="#"><img class="svg" src="images/ic-chevron-left.svg"/></a></li>
-                </ul>
-                <select class="select">
-                  <option value="">4 items</option>
-                  <option value="">8 items</option>
-                  <option value="">12 items</option>
-                </select>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="box-card card-stat">
+                  <h4>Total Pemasukan</h4><b>Rp, 50.102.000</b>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box-card card-stat">
+                  <h4>Total Member</h4><b>3.102</b>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box-card card-stat">
+                  <h4>Total Dokter</h4><b>32</b>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box-card card-stat">
+                  <h4>Total kelas yang dibuat</h4><b>100</b>
+                </div>
               </div>
             </div>
           </section>
           <section class="section">
-            <div class="section-heading">
-              <div class="left">
-                <h3>Finished Class</h3>
-              </div>
-              <div class="right">
-                <select class="select">
-                  <option value="">Kategori 1</option>
-                  <option value="">Kategori 2</option>
-                  <option value="">Kategori 3</option>
-                  <option value="">Kategori 4</option>
-                </select>
-                <div class="search-box">
-                  <div class="search">
-                    <input class="form-control" type="text" placeholder="Cari kelas"/>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="section-heading">
+                  <div class="left">
+                    <h3>Best seller class</h3>
+                  </div>
+                  <div class="right">
+                    <select class="select" title="All Title">
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                      <option>Option 4</option>
+                    </select>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="row wrap-box-card">
-              <div class="col-md-3">
-                <div class="box-card">
-                  <div class="box-card__img"><img src="images/img-card-01.png"/></div>
-                  <div class="box-card__text"><span class="tag">Good morning knowledge</span>
-                    <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
-                    <ul class="schedule">
-                      <ul>
-                        <li>
-                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
-                        </li>
-                        <li>
-                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
-                        </li>
-                      </ul>
-                    </ul>
-                    <div class="author">
-                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                <div class="panel best-seller">
+                  <div class="best-seller__item">
+                    <div class="class_name">
+                      <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
+                      <div class="cate-date"><small>Good Morning Knowledge</small><small>20 Agustus 2020</small></div>
+                    </div>
+                    <div class="buyer">
+                      <label>Pembeli</label><b>1.100</b>
                     </div>
                   </div>
-                  <div class="box-card__footer">
-                    <div class="price">Free</div>
-                    <div class="action">
-                      <div class="dot"><img src="images/ic-three-dots.svg"/></div>
-                      <div class="action-sub">
-                        <ul>
-                          <li><a href="#">Edit Kelas</a></li>
-                          <li class="dlt"><a href="#">Delete Kelas</a></li>
-                        </ul>
-                      </div>
+                  <div class="best-seller__item">
+                    <div class="class_name">
+                      <h4><a href="#">Siap Tanggapi Trauma Urogenital serta pengenalan...</a></h4>
+                      <div class="cate-date"><small>Good Morning Knowledge</small><small>20 Agustus 2020</small></div>
+                    </div>
+                    <div class="buyer">
+                      <label>Pembeli</label><b>1.000</b>
+                    </div>
+                  </div>
+                  <div class="best-seller__item">
+                    <div class="class_name">
+                      <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
+                      <div class="cate-date"><small>Skill Lab</small><small>20 Agustus 2020</small></div>
+                    </div>
+                    <div class="buyer">
+                      <label>Pembeli</label><b>900</b>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="box-card">
-                  <div class="box-card__img"><img src="images/img-card-02.png"/></div>
-                  <div class="box-card__text"><span class="tag">Siap Tanggapi Trauma Urogenital</span>
-                    <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
-                    <ul class="schedule">
-                      <ul>
-                        <li>
-                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
-                        </li>
-                        <li>
-                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
-                        </li>
-                      </ul>
-                    </ul>
-                    <div class="author">
-                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
-                    </div>
-                  </div>
-                  <div class="box-card__footer">
-                    <div class="price">Rp. 250,000,-</div>
-                    <div class="action">
-                      <div class="dot"><img src="images/ic-three-dots.svg"/></div>
-                      <div class="action-sub">
-                        <ul>
-                          <li><a href="#">Edit Kelas</a></li>
-                          <li class="dlt"><a href="#">Delete Kelas</a></li>
-                        </ul>
-                      </div>
-                    </div>
+              <div class="col-md-6">
+                <div class="section-heading">
+                  <div class="left">
+                    <h3>Total penjualan hari ini</h3>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-3">
-                <div class="box-card">
-                  <div class="box-card__img"><img src="images/img-card-03.png"/></div>
-                  <div class="box-card__text"><span class="tag tag-scndry">Skill Lab</span>
-                    <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
-                    <ul class="schedule">
-                      <ul>
-                        <li>
-                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
-                        </li>
-                        <li>
-                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
-                        </li>
-                      </ul>
-                    </ul>
-                    <div class="author">
-                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
-                    </div>
+                <div class="panel">
+                  <div class="pendapatan">
+                    <label>Pendapatan hari ini</label><b>Rp, 600.000</b>
                   </div>
-                  <div class="box-card__footer">
-                    <div class="price">Free</div>
-                    <div class="action">
-                      <div class="dot"><img src="images/ic-three-dots.svg"/></div>
-                      <div class="action-sub">
-                        <ul>
-                          <li><a href="#">Edit Kelas</a></li>
-                          <li class="dlt"><a href="#">Delete Kelas</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="box-card">
-                  <div class="box-card__img"><img src="images/img-card-03.png"/></div>
-                  <div class="box-card__text"><span class="tag tag-scndry">Skill Lab</span>
-                    <h4><a href="#">Siap Tanggapi Trauma Urogenital</a></h4>
-                    <ul class="schedule">
-                      <ul>
-                        <li>
-                          <div class="ic"><img src="images/ic-date.svg"/></div><span>16 Aug 2020</span>
-                        </li>
-                        <li>
-                          <div class="ic"><img src="images/ic-time.svg"/></div><span>20:00 - 22:30 WIB</span>
-                        </li>
-                      </ul>
-                    </ul>
-                    <div class="author">
-                      <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
-                    </div>
-                  </div>
-                  <div class="box-card__footer">
-                    <div class="price">Free</div>
-                    <div class="action">
-                      <div class="dot"><img src="images/ic-three-dots.svg"/></div>
-                      <div class="action-sub">
-                        <ul>
-                          <li><a href="#">Edit Kelas</a></li>
-                          <li class="dlt"><a href="#">Delete Kelas</a></li>
-                        </ul>
+                  <div class="wrap-box-card listview most-buyclass">
+                    <h4>Kelas terbeli terbanyak hari ini</h4>
+                    <div class="box-card">
+                      <div class="box-card__content">
+                        <div class="box-card__text">
+                          <h4>Siap Tanggapi Trauma Urogenital serta pengenalan...</h4><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                          <div class="box-card__footer">
+                            <div class="author">
+                              <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+                            </div>
+                            <div class="price">Rp. 150,000</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="loadmore text-center"><a class="btn btn-link" href="#">Load more</a></div>
           </section>
         </div>
       </main>
@@ -414,23 +160,6 @@
           </div>
         </div>
       </footer>
-    </div>
-    <div class="modal" id="modalNotes" tabindex="-1">
-      <div class="modal-dialog modal-dialog--centered modal-dialog--sm">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="modal-title">
-              <Tulis>Catatan</Tulis>
-            </div>
-            <form>
-              <div class="form-group">
-                <input class="form-control" type="Text" value=""/>
-              </div>
-              <div class="form-action text-right"><a class="btn btn--noborder" href="#" data-dismiss="modal">Cancel</a><a class="btn btn--primary" href="#">Simpan</a></div>
-            </form>
-          </div>
-        </div>
-      </div>
     </div>
     <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
     <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
