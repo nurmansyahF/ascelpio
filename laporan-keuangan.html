@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="theme-color" content=""/>
+    <meta name="theme-color" content="#FFEDBC"/>
+    <title>Ascelpio</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="styles/plugins.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+  </head>
+  <body>
+    <div id="wrap">
+      <main>
+        <aside class="sidebar" id="sidebar">
+          <h1 class="logo"><a class="sidebar__logo" href="#"><img src="images/logo-ascelpio.png" alt="logo-ascelpio"/><span>Admin</span></a></h1>
+          <nav class="sidemenu">
+            <ul>
+              <li><a href="dashboard.html"><span>Dashboard</span></a></li>
+              <li><a href="asclepedia.html"><span>Asclepedia</span></a></li>
+              <li><a href="asclepio-go.html"><span>Asclepio GO</span></a></li>
+              <li><a href="pemateri.html"><span>Pemateri</span></a></li>
+              <li><a href="user.html"><span>Member</span></a></li>
+              <li><a href="master-topik.html"><span>Master Topik</span></a></li>
+              <li><a href="voucher.html"><span>Voucher</span></a></li>
+              <li><a href="voucher.html"><span>Transaksi</span></a></li>
+              <li class="current-menu-item"><a href="laporan-keuangan.html"><span>Laporan Keuangan</span></a></li>
+              <li><a href="settings-auth.html"><span>Settings</span></a></li>
+              <li><a href="login.html"><span>Logout</span></a></li>
+            </ul>
+          </nav>
+        </aside>
+        <div class="admin-content">
+          <section class="page-heading">
+            <div class="left">
+              <h2>Laporan Keuangan</h2>
+            </div>
+            <div class="right"><a class="btn btn-transparent" href="#downloadLaporan" data-toggle="modal" data-target="#downloadLaporan">
+                <div class="icon"><img class="svg" src="images/ic_download.svg" alt="ic-download"/></div><span>Download Laporan</span></a><a class="btn btn-white" href="#filterLaporan" data-toggle="modal" data-target="#filterLaporan">
+                <div class="icon"><img class="svg" src="images/ic-filter.svg" alt="ic-filter"/></div><span>Filter</span></a></div>
+          </section>
+          <section class="section">
+            <div class="section-heading">
+              <div class="left">
+                <h3>Stat</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box-card card-stat">
+                  <h4>Pemasukan</h4><b>Rp, 30.112.000</b>
+                  <div class="periode"><b>Periode :</b><span>18-09-2021 s/d 17-10-2021</span></div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box-card card-stat">
+                  <h4>Jumlah Peserta</h4><b>2.130 Peserta</b>
+                  <div class="periode"><b>Periode :</b><span>18-09-2021 s/d 17-10-2021</span></div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box-card card-stat">
+                  <h4>Kelas terlaris</h4>
+                  <div class="box-kelas"><span>Siap Tanggapi Trauma Urogenital</span><small>Good Morning Class • 20 Agustus 2020</small></div>
+                  <div class="periode"><b>Periode :</b><span>18-09-2021 s/d 17-10-2021</span></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section">
+            <div class="section-heading">
+              <div class="left">
+                <h3>List Transaksi</h3>
+              </div>
+              <div class="right">
+                <div class="search-box">
+                  <div class="search">
+                    <input class="form-control" type="text" placeholder="Search"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="benefits-table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th><span>Kelas</span></th>
+                    <th><span>Jumlah Peserta</span></th>
+                    <th><span>Harga Kelas</span></th>
+                    <th><span>Total Income</span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Siap Tanggapi Trauma Urogenital</p><small>Good Morning Knowledge • 20 Agustus 2020</small>
+                    </td>
+                    <td>20 Peserta</td>
+                    <td>Rp, 250.000</td>
+                    <td>Rp, 5.000.000</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="pagination-box">
+                <ul class="pagination">
+                  <li class="prev"><a href="#"><img class="svg" src="images/ic-chevron-left.svg"/></a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li class="next"><a href="#"><img class="svg" src="images/ic-chevron-left.svg"/></a></li>
+                </ul>
+                <select class="select">
+                  <option value="">4 items</option>
+                  <option value="">8 items</option>
+                  <option value="" selected="selected">12 items</option>
+                </select>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__main">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-md-3"><a class="header__logo" href="#"><img src="images/logo-ascelpio.png"/></a></div>
+              <div class="col-md-3">
+                <div class="cpyright">Copyright ©2020 Asclepio</div>
+              </div>
+              <div class="col-md-3"><span>Admin</span></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="modal mdlDownloadLap" id="filterLaporan" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--md">
+        <div class="modal-content">
+          <div class="modal-body"><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <div class="modal-title">
+              <h3>Filter</h3>
+            </div>
+            <div class="form-group">
+              <label>Periode</label>
+              <div class="period__list">
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="period_1" type="radio" name="period"/>
+                    <label class="custom-control-label" for="period_1">Hari ini</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="period_2" type="radio" name="period"/>
+                    <label class="custom-control-label" for="period_2">Minggu ini</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="period_3" type="radio" name="period"/>
+                    <label class="custom-control-label" for="period_3">Bulan ini</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="period_4" type="radio" name="period" checked="checked"/>
+                    <label class="custom-control-label" for="period_4">Custom</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="datetodate">
+                <select class="select" title="Pilih Tanggal Mulai">
+                  <option>10 September 2021</option>
+                  <option selected="selected">11 September 2021</option>
+                  <option>12 September 2021</option>
+                  <option>13 September 2021</option>
+                  <option>14 September 2021</option>
+                  <option>15 September 2021</option>
+                  <option>16 September 2021</option>
+                </select>
+                <div class="to">to</div>
+                <select class="select" title="Pilih Tanggal Akhir">
+                  <option>10 September 2021</option>
+                  <option>11 September 2021</option>
+                  <option>12 September 2021</option>
+                  <option>13 September 2021</option>
+                  <option>14 September 2021</option>
+                  <option>15 September 2021</option>
+                  <option selected="selected">16 September 2021</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Kategori Kelas</label>
+              <div class="period__list">
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="kategori_1" type="radio" name="kategori"/>
+                    <label class="custom-control-label" for="kategori_1">Good Morning Class</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="kategori_2" type="radio" name="kategori"/>
+                    <label class="custom-control-label" for="kategori_2">Open Class</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="kategori_3" type="radio" name="kategori"/>
+                    <label class="custom-control-label" for="kategori_3">Skill Labs</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="kategori_4" type="radio" name="kategori"/>
+                    <label class="custom-control-label" for="kategori_4">Private Class</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="kategori_5" type="radio" name="kategori"/>
+                    <label class="custom-control-label" for="kategori_5">Expert Class</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Range Harga kelas</label>
+              <div class="range-slider" id="range_harga" data-min="0" data-max="500">
+                <div class="val val-min">Free</div>
+                <div class="val val-max">500k</div>
+              </div>
+            </div>
+            <div class="btn-wrap text-right"><a class="btn btn-transparent" href="#">Save Filter</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal mdlDownloadLap" id="downloadLaporan" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--md">
+        <div class="modal-content">
+          <div class="modal-body"><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <div class="modal-title">
+              <h3>Download Laporan</h3>
+            </div>
+            <div class="form-group">
+              <label>Periode</label>
+              <div class="period__list">
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="period_1" type="radio" name="period"/>
+                    <label class="custom-control-label" for="period_1">Hari ini</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="period_2" type="radio" name="period"/>
+                    <label class="custom-control-label" for="period_2">Minggu ini</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="period_3" type="radio" name="period"/>
+                    <label class="custom-control-label" for="period_3">Bulan ini</label>
+                  </div>
+                </div>
+                <div class="period-item">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" id="period_4" type="radio" name="period" checked="checked"/>
+                    <label class="custom-control-label" for="period_4">Custom</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="datetodate">
+                <select class="select" title="Pilih Tanggal Mulai">
+                  <option>10 September 2021</option>
+                  <option selected="selected">11 September 2021</option>
+                  <option>12 September 2021</option>
+                  <option>13 September 2021</option>
+                  <option>14 September 2021</option>
+                  <option>15 September 2021</option>
+                  <option>16 September 2021</option>
+                </select>
+                <div class="to">to</div>
+                <select class="select" title="Pilih Tanggal Akhir">
+                  <option>10 September 2021</option>
+                  <option>11 September 2021</option>
+                  <option>12 September 2021</option>
+                  <option>13 September 2021</option>
+                  <option>14 September 2021</option>
+                  <option>15 September 2021</option>
+                  <option selected="selected">16 September 2021</option>
+                </select>
+              </div>
+            </div>
+            <div class="btn-wrap text-right"><a class="btn btn-transparent" href="#">Download</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+      $( "#range_harga" ).each(function(){
+        var t   = $(this),
+            min = t.data('min'),
+            max = t.data('max');
+        console.log(min);
+        t.slider({
+          range: true,
+          min: 0,
+          max: 500,
+          values: [ 0, 250 ],
+          slide: function( event, ui ) {
+            $( "#nomi_start" ).html( ui.values[ 0 ]);
+            $( "#nomi_end" ).html( ui.values[ 1 ] );
+          }
+        });
+      })
+    </script>
+  </body>
+</html>

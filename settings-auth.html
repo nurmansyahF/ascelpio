@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="theme-color" content=""/>
+    <meta name="theme-color" content="#FFEDBC"/>
+    <title>Ascelpio</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="styles/plugins.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+  </head>
+  <body>
+    <div id="wrap">
+      <main>
+        <aside class="sidebar" id="sidebar">
+          <h1 class="logo"><a class="sidebar__logo" href="#"><img src="images/logo-ascelpio.png" alt="logo-ascelpio"/><span>Admin</span></a></h1>
+          <nav class="sidemenu">
+            <ul>
+              <li><a href="dashboard.html"><span>Dashboard</span></a></li>
+              <li><a href="asclepedia.html"><span>Asclepedia</span></a></li>
+              <li><a href="asclepio-go.html"><span>Asclepio GO</span></a></li>
+              <li><a href="pemateri.html"><span>Pemateri</span></a></li>
+              <li><a href="user.html"><span>Member</span></a></li>
+              <li><a href="master-topik.html"><span>Master Topik</span></a></li>
+              <li><a href="voucher.html"><span>Voucher</span></a></li>
+              <li><a href="voucher.html"><span>Transaksi</span></a></li>
+              <li><a href="laporan-keuangan.html"><span>Laporan Keuangan</span></a></li>
+              <li class="current-menu-item"><a href="settings-auth.html"><span>Settings</span></a></li>
+              <li><a href="login.html"><span>Logout</span></a></li>
+            </ul>
+          </nav>
+        </aside>
+        <div class="admin-content">
+          <section class="page-heading">
+            <div class="left">
+              <h2>Settings</h2>
+            </div>
+          </section>
+          <section class="section settings">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="section-heading">
+                  <div class="left">
+                    <h3>Opsi</h3>
+                  </div>
+                </div>
+                <div class="menu-settings">
+                  <ul>
+                    <li class="active"><a href="settings-auth.html">
+                        <div class="icon"><img class="svg" src="images/ic-home.svg" alt="ic-auth"/></div><span>Register/Login</span></a></li>
+                    <li><a href="settings-seo.html">
+                        <div class="icon"><img class="svg" src="images/ic-seo.svg" alt="ic-seo"/></div><span>SEO Settings</span></a></li>
+                    <li><a href="#">
+                        <div class="icon"><img class="svg" src="images/ic-kuisioner.svg" alt="ic-kuisioner"/></div><span>Kuisioner</span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="section-heading">
+                  <div class="left">
+                    <h3>Register & Login Photo Settings</h3>
+                  </div>
+                </div>
+                <div class="panel settings-change-img">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="drop-box">
+                        <input class="inputfile" id="imgRegister" type="file" name="file"/>
+                        <div class="placeholder">
+                          <div class="ic-upload"><img src="images/ic-upload.svg"/></div>
+                          <div class="box-btn">
+                            <label class="btn-add-photo" for="imgRegister">Drag & drop multiple file or <a class='btn-add-photo' for="imgRegister"> browse </a> file here</label><span>files required .png .jpg</span>
+                          </div>
+                        </div>
+                        <div class="image-preview" style="background-image: url()"></div><a class="del-btn"></a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="drop-box">
+                        <input class="inputfile" id="imgLogin" type="file" name="file"/>
+                        <div class="placeholder">
+                          <div class="ic-upload"><img src="images/ic-upload.svg"/></div>
+                          <div class="box-btn">
+                            <label class="btn-add-photo" for="imgLogin">Drag & drop multiple file or <a class='btn-add-photo' for="imgLogin"> browse </a> file here</label><span>files required .png .jpg</span>
+                          </div>
+                          <div class="image-preview" style="background-image: url()"></div>
+                        </div>
+                        <div class="image-preview" style="background-image: url()"></div><a class="del-btn"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btn-wrap text-right"><a class="btn btn-primary btn-large" href="#">Simpan Perubahan</a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__main">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-md-3"><a class="header__logo" href="#"><img src="images/logo-ascelpio.png"/></a></div>
+              <div class="col-md-3">
+                <div class="cpyright">Copyright ©2020 Asclepio</div>
+              </div>
+              <div class="col-md-3"><span>Admin</span></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
